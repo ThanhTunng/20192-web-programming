@@ -15,7 +15,8 @@
 		
 		$first_name = "Thanh Tung"; $family_name = "Vu";
 		$full_name = $first_name.$family_name;
-		print("<br>$full_name");
+		$length = strlen($full_name);
+		print("<br>Full name: $full_name has length: $length");
 	?>
 </body>
 </html>
