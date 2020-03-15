@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Declaration Form</title>
+	<style type="ex2-9.css">
+	</style>
+</head>
+<body>
+	<h2>
+		Declaration Form
+	</h2>
+	<div style="width: 100%; display: flex; justify-content: left;">
+		<form action="ex2-9.php" method="post">
+			<table border="0">
+				<tr>
+					<th> Name </th>
+					<th>
+						<input type="text" size="50" style="" name="name">
+					</th>
+				<tr>
+					<th>Class</th>
+					<th>
+						<input type="text" size="50" name="class">
+					</th>
+				</tr>
+				<tr>
+					<th>University</th>
+					<th><input type="text" size="50" name="university"></th>
+				</tr>
+				<tr>
+					<th>Gender</th>
+					<th style="text-align: left">
+						<input type="radio" name="gender" value="Male">Male
+						<input type="radio" name="gender" value="Female">Female
+						<input type="radio" name="gender" value="Gay/Less">Gay/Less
+					</th>
+				</tr>
+				<tr>
+					<th>Hobbies</th>
+					<th>
+						<ul style="text-align: left">
+                            <li><input type="checkbox" name="Hobby[]" value="Science">Science</li>
+                            <li><input type="checkbox" name="Hobby[]" value="Technology">Technology</li> <li><input type="checkbox" name="Hobby[]" value="Design">Design</li>
+                            <li><input type="checkbox" name="Hobby[]" value="Business">Business</li> 
+                            <li><input type="checkbox" name="Hobby[]" value="Environment">Environment</li>
+                            <li><input type="checkbox" name="Hobby[]" value="Personal Growth">Personal Growth</li>
+                            <li><input type="checkbox" name="Hobby[]" value="The Future">The Future</li>              
+                        </ul>
+					</th>
+				</tr>
+			</table>
+            <div style="text-align: right">
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+            </div>
+		</form>
+	</div>
+</body>
+</html>
