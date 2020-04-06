@@ -1,0 +1,103 @@
+
+<html>
+<head>
+	<title>Web Infor Sys</title>
+</head>
+<body>
+	<h1 align="center">Bài kiểm tra số 1</h1>
+	<table>
+		<tr>
+			<td style="color: blue;"> Click this picture to download the syllabus of course </td>
+			<td><a href="https://users.soict.hust.edu.vn/hoangph/courses/IT3402/it3402_syllabus.pdf" download><img style="width:200px; height: 120px" src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.15752-9/89371115_679972742745766_2960946111650463744_n.png?_nc_cat=103&_nc_sid=b96e70&_nc_ohc=diMJE8McbSwAX8fyWsu&_nc_ht=scontent.fhan2-4.fna&oh=df6cbf667143582d128d88420d86e11d&oe=5EAAB467"></a> </td>
+		</tr>
+	</table>
+
+	<dl>
+		<dt style="font-size:110%;"><b> Week1: Introduction </b></dt>
+			<dd>Brief history of Internet and World Wide Web, What is NOT a web system, Typical application, Social impact</dd>
+		<dt style="font-size:110%;"><b> Week2: HTTP </b></dt>
+			<dd>
+				Server-client model, Protocol stack, TCP/IP, DNS, URL or URI
+				Request and response, character encoding, media type, request methods, request header fields, response header fields
+			</dd>
+
+		<dt style="font-size:110%;"><b> Week3: HTML </b></dt>
+			<dd>
+				Markup and rendering, Syntax of HTML
+			</dd>
+
+		<dt style="font-size:110%;"><b> Week4: CSS </b></dt>
+			<dd>
+				Stylesheet, Separating structure and presentation, Syntax of CSS
+			</dd>
+
+		<dt style="font-size:110%;"><b> Week5: Overview of dynamics pages</b></dt>
+			<dd>
+				Examples of dynamic pages, Client-side and server-side, 3-tier system
+			</dd>
+
+		<dt style="font-size:110%;"><b> Week6: Client-side dynamics pages </b></dt>
+			<dd>
+				Client-side dynamic pages, JavaScript
+			</dd>
+
+		<dt style="font-size:110%;"><b> Week7: Server-side dynamic pages with Ruby</b></dt>
+			<dd>
+				Introduction & Ruby Basic, Ruby Basic
+			</dd>
+
+		<dt style="font-size:110%;"><b> Week8: Server-side dynamic pages with Ruby (2)</b></dt>
+			<dd>
+				Ruby Advance: #1: Class, Number, String, Array, Hash
+				Ruby Advance: #2: Ranges, Symbols, Booleans, Objects, Variables, Operators, Conditionals, Loops
+				Ruby Advance: #3: Methods, Blocks, Procs, Lambdas, Closures, Classes, Exception handling
+			</dd>
+		
+		<dt style="font-size:110%;"><b> Week9: Server-side dynamic pages with Ruby (3)</b></dt>
+			<dd>
+				Ruby on Rails: introduction & deployment
+			</dd>
+
+		<dt style="font-size:110%;"><b> Week10: Server-side dynamic pages with Ruby (4)</b></dt>
+			<dd>Static page, layout and modeling, sign up</dd>
+		<dt style="font-size:110%;"><b> Week11: Server-side dynamic pages with Ruby (5)</b></dt>
+			<dd>Log in, log out, Updating, Showing</dd>
+		<dt style="font-size:110%;"><b> Week12: Server-side dynamic pages with Ruby (6)</b></dt>
+			<dd>Account Activation</dd>
+		<dt style="font-size:110%;"><b> Week13: Advanced topic 3: Web 3.0</b></dt>
+			<dd>Metadata, Semantic web, RDF, OWL, SPARQL</dd>
+		<dt style="font-size:110%;"><b> Week14: Mini project</b></dt>
+		<dt style="font-size:110%;"><b> Week15: Mini project</b></dt>
+	</dl>
+
+	<form action="process.php" method="POST">
+		<input type="radio" name="content" value="yes"> Agree with the content
+		<input type="radio" name="content" value="no"> Disagree with the content
+		<table>
+			<tr> 
+				<td> Other Opinion </td>
+				<td> <input type="text" size="46" maxlength="1000" name="opinion"></td>
+			</tr>
+			<tr>
+				<td> Select User </td>
+				<td>
+					<select name="user">
+						<option>Vu Thanh Tung</option>
+						<option>Nguyen Duc Dung</option>
+						<option>Dao Ngoc Thanh</option>
+						<option>Tran Bich Ngoc</option>
+						<option>Tran Duc Phung</option>
+						<option>Chu The Chuong</option>
+					</select>
+				</td>
+			<tr>
+				<td> Password </td>
+				<td> <input type="password" name="pass"></td>
+			</tr>
+		</table>
+		<input type="submit" value="Submit">
+		<input type="reset" value ="Reset">
+
+	</form>
+</body>
+</html>
