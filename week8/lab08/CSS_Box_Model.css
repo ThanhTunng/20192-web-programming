@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#header {
+    background: rgb(255, 0, 0);
+    width: 100%;
+}
+#leftcol {
+    background: #f00;
+    float: left;
+    width: 20%;
+    height: 500px;
+}
+#rightcol {
+    background: rgb(238, 255, 0);
+    float: right;
+    width: 20%;
+    height: 500px;
+}
+#content {
+    background: #fff;
+    float: left;
+    width: 60%;
+    height: 500px;
+}
+#footer {
+    background: rgb(47, 0, 255);
+    clear: both;
+    width: 100%;
+}

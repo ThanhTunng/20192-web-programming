@@ -1,0 +1,17 @@
+H1 {
+    text-align: center;
+}
+p {
+    margin: 0.25in;
+    border: 0.25in solid black;
+    padding: 0.25in;
+    background: url(./image/bondpaper.jpg);
+}
+body {
+    background: url(./image/bricks.jpeg);
+}
+.banner{
+    background: url(./image/boards.jpg) repeat-x;
+    font-size: 50pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
