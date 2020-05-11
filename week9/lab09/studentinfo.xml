@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student[
+    <!ELEMENT student (name,birth,class,major,college)>
+    <!ELEMENT birth (day, month, year)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT day (#PCDATA)>
+    <!ELEMENT month (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+    <!ELEMENT class (#PCDATA)>
+    <!ELEMENT major (#PCDATA)>
+    <!ELEMENT college (#PCDATA)>
+]>
+<student>
+    <name>Vu Thanh Tung</name>
+    <birth>
+        <day>12</day>
+        <month>August</month>
+        <year>1998</year>
+    </birth>
+    <class>ICT-K61</class>
+    <major>Information technology</major>
+    <college>Hanoi University of Science and Technology</college>
+</student>
