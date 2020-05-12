@@ -8,7 +8,7 @@ $xml = simplexml_load_file($file) or die ("Unable to load XML file!");
 
 // get all the <desc> elements and print 
 foreach ($xml->xpath('//desc') as $desc){
-     echo "$desc\n";
+     echo ("$desc\n");
 } 
  
 ?> 
