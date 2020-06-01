@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate postal code and money using RE</title>
+    <script>
+        function validatePostalCode(){
+            var postalCodeCheck = new RegExp("([A-Z][0-9]{3,3})");
+            if(postalCodeCheck.test(document.myForm.postalCodeField.value)){
+                alert("valid postal code");
+                return true;
+            } else {
+                alert("Invalid Postal code: "+document.myForm.postalCodeField.value);
+                return false;
+            }
+        }
+
+        function validateMoney(){
+            var moneyCheck = new RegExp("[0-9]*[\.][0-9][0-9]");
+            if(moneyCheck.test(document.myForm.moneyField.value)){
+                alert("Valid money");
+                return true;
+            } else {
+                alert("Invalid money: "+document.myForm.moneyField.value);
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="myForm">
+        Postal Code: <input type="text" name="postalCodeField">
+                    <input type="button" value="Check Postal Code" onclick="validatePostalCode()">
+        <br>
+        Money: <input type="text" name="moneyField">
+                <input type="button" value="Check Money" onclick="validateMoney()">
+    </form>
+</body>
+</html>

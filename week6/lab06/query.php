@@ -19,7 +19,7 @@
 		} else {
 			$SQLcmd = "SELECT * from $table_name";
 			mysqli_select_db($connect, $table_name);
-			$result = mysqli_query($SQLcmd,$connect);
+			$result = mysqli_query($connect,$SQLcmd);
 			if($result){
 				print "<table border=1>";
 				print "<th>Num<th>Product<th>Cost<th>Weight<th>Count";

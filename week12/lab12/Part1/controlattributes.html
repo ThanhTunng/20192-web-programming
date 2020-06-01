@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Control's attributes</title>
+    <script>
+        function setAlign(align){
+            var pTag = window.document.getElementById("Paragraph");
+            pTag.setAttribute("align",align);
+        }
+    </script>
+</head>
+<body>
+    <form name="alignForm">
+        <select name="" id="alignSelect">
+            <option value="left">left</option>
+            <option value="right">right</option>
+            <option value="center">center</option>
+        </select>
+        <input type="button" value="go" onclick="setAlign(document.alignForm.alignSelect.value)">
+    </form>
+    <p id="Paragraph">Ahihi</p>
+</body>
+</html>
